@@ -1,18 +1,24 @@
 body{
     background-image: url(https://www.tapeteos.pl/data/media/185/big/boze_narodzenie__swieta_1920x1080_046_choinka.jpg);
 }
-.navi{
+.bg-color{
+    background-color: darkred;
+}
+.bg-colors{
+    background-color: rgba(0, 0, 0, 0.703);
+}
+.div1{
     height: 50px;
 }
-.bg-color{
-    background-color: rgb(224, 77, 77);
-}
 .text{
-    font-size: 200px;
-    color: rgb(0, 139, 7);
-    margin-top: 20%;
+    font-size: 30px;
+    font-weight: 500;
 }
-body:hover{
-    transition: 5s;
-    transform: rotate(720deg);
+.cont{
+    margin-top: 10px;
+    border-radius: 30px;
+    border: black solid 3px;
+}
+.font{
+    color: blanchedalmond;
 }
